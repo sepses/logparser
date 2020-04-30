@@ -1,0 +1,54 @@
+EventId,EventTemplate,Occurrences
+e2797d68,op=start ver=<*>.<*>.<*> format=raw kernel=<*>.<*>.<*>-<*>-azure auid=<*> pid=<*> uid=<*> ses=<*> subj=unconfined res=success,5
+19eb6545,audit_backlog_limit=<*> old=<*> auid=<*> ses=<*> res=<*>,5
+86c6192b,audit_failure=<*> old=<*> auid=<*> ses=<*> res=<*>,5
+90cf8960,audit_backlog_wait_time=<*> old=<*> auid=<*> ses=<*> res=<*>,5
+b324f02a,pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> hostname=? addr=? <*> <*>,531
+0cae8171,"pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> exe=""/usr/sbin/sshd"" <*> addr=<*> <*> <*>",175
+8f349445,op=terminate auid=<*> pid=<*> subj= res=success,4
+77b98999,"apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" <*> pid=<*> comm=""apparmor_parser""",36
+10851a30,table=security family=<*> entries=<*>,24
+d7793fe5,"pid=<*> uid=<*> auid=<*> ses=<*> msg='old-level=N new-level=<*> comm=""systemd-update-utmp"" exe=""/lib/systemd/systemd-update-utmp"" hostname=? addr=? terminal=? res=success'",3
+5690cd83,pid=<*> uid=<*> old-auid=<*> auid=<*> tty=(none) old-ses=<*> ses=<*> res=<*>,8
+7ca59cdf,pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> terminal=pts/<*> <*>,11
+e7fed54a,"auid=<*> ses=<*> op=add_rule key=""home"" list=<*> res=<*>",3
+b4cc6266,arch=c000003e syscall=<*> <*> exit=<*> <*> <*> <*> <*> items=<*> ppid=<*> pid=<*> auid=<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*> <*> ses=<*> <*> <*> <*>,4553
+b8e6f944,"cwd=""/home/jhalley""",4519
+73d5134d,item=<*> <*> inode=<*> dev=<*>:<*> mode=<*> ouid=<*> ogid=<*> rdev=<*>:<*> <*> cap_fp=<*> cap_fi=<*> cap_fe=<*> cap_fver=<*>,9374
+82f14ed8,proctitle=7375646F00617564697463746C002D6C,1
+e558b054,"proctitle=""bash""",4
+84c4ac86,proctitle=69707461626C6573002D77002D74007365637572697479002D4C004F5554505554002D2D7A65726F004F5554505554002D6E<*>,14
+6cfd83c2,"name=""iptable_security""",2
+eeb56e84,proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D0069707461626C655F<*>,2
+d46a2bc1,proctitle=69707461626C6573002D77002D74007365637572697479002D41004F5554505554002D64003136382E36332E3132392E3136002D7000746370002D6D006F776E6572002D2D7569642D6F776E65720030002D6A<*>,2
+c55634be,proctitle=69707461626C6573002D77002D74007365637572697479002D41004F5554505554002D64003136382E36332E3132392E3136002D7000746370002D6D00636F6E6E747261636B002D2D6374737461746500494E56414C49442C4E4557002D6A0044524F<*>,2
+4e35aee4,proctitle=7861757468002D71002D66002E58617574686F7269747900616464003A3130002E<*>,9
+6e18603f,proctitle=2F7573722F6C69622F786F72672F586F7267003A3130002D61757468002E58617574686F72697479002D636F6E66696700787264702F786F72672E636F6E66002D6E6F7265736574002D6E6F6C697374656E00746370002D6C6F6766696C65002E786F7267787264702E25732E6C6F<*>,2
+f0a81492,proctitle=746F756368002F686F6D652F6A68616C6C65792F2E7873657373696F6E2D6572726F<*>,1
+db4e4626,proctitle=2F62696E2F7368002F6574632F5831312F5873657373696F6E,1
+299c0a9a,"proctitle=""/usr/sbin/xrdp-chansrv""",11
+fd377212,saddr=01002F686F6D652F6A68616C6C65792F2E7063736331302F70637363642E636F6D6D<*>,2
+7a12ca58,"proctitle=""xfce4-session""",11
+f849cbff,"proctitle=""/usr/lib/x86_<*>-linux-gnu/xfce4/xfconf/xfconfd""",16
+2833cf84,proctitle=2F7573722F62696E2F6963656175746800736F75726365002F746D702F2E7866736D2D4943452D<*>,9
+b918f8d9,proctitle=5468756E6172002D2D6461656D6F6E,17
+e070f1af,"proctitle=""xfwm4""",7
+8e1e0274,"cwd=""/""",1
+a04ff662,proctitle=2F7573722F62696E2F70756C7365617564696F002D2D7374617274002D2D6C6F672D7461726765743D7379736C6F<*>,1
+67a52f9b,"proctitle=""xfce4-panel""",7
+db320942,"proctitle=""xfdesktop""",7
+313e50cc,proctitle=2F7573722F6C69622F7838365F36342D6C696E75782D676E752F78666365342F65786F2D312F65786F2D68656C7065722D31002D2D6C61756E6368005465726D696E616C456D756C61746F<*>,14
+5a670331,proctitle=7375646F0073797374656D63746C<*>,1
+0bb838a4,"proctitle=""/usr/lib/firefox/firefox""",4250
+310479df,item=<*> <*> <*> cap_fp=<*> cap_fi=<*> cap_fe=<*> cap_fver=<*>,3
+77e0b049,proctitle=7375646F0061707400696E7374616C6C0066696C657A696C6C<*>,1
+a3042561,"proctitle=""filezilla""",124
+c444993a,"proctitle=""/usr/lib/x86_<*>-linux-gnu/xfce4/notifyd/xfce4-notifyd""",7
+050263a9,proctitle=76696D002F686F6D652F6A68616C6C65792F446F63756D656E74732F5265706F7274735F323032302E<*>,5
+f73a525b,"cwd=""/home/jhalley/Documents""",9
+972e6419,proctitle=76696D002F686F6D652F6A68616C6C65792F446F63756D656E74732F5265706F7274735F323031392E<*>,7
+dc967cf6,"proctitle=""/usr/lib/gvfs/gvfsd-metadata""",13
+c6ac035b,proctitle=76696D002F686F6D652F6A68616C6C65792F446F776E6C6F6164732F5265706F72745F323032302E<*>,5
+a882e94a,"cwd=""/home/jhalley/Downloads""",4
+4dc60efc,proctitle=7375646F002E2F5265706F72745F323032302E<*>,1
+d7a6bcd0,proctitle=77676574006578616D706C652E636F6D3F693D616D68686247786C655341784D4334774C6A41754D54496744516F3D,1

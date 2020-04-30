@@ -1,0 +1,37 @@
+EventId,EventTemplate,Occurrences
+724c882e,new group: <*> GID=<*>,6
+74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>",5
+d6a93616,add 'jdoe' to group <*>,11
+11b5f432,add 'jdoe' to shadow group <*>,11
+f2bb95c7,New seat seat0.,3
+52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),3
+daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),6
+8938d159,Server listening on <*> port <*>.,8
+903531a0,Received signal <*>; terminating.,3
+aec89abf,Accepted password for jdoe from <*> port <*> ssh<*>,1
+3bc15242,pam_unix(sshd:session): session opened for user jdoe by (uid=<*>),1
+308f3c02,pam_unix(systemd-user:session): session opened for user jdoe by (uid=<*>),3
+2c0fcf3b,New session <*> of user jdoe.,4
+f0f78560,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get <*> <*> <*>,3
+d5216419,pam_unix(sudo:session): session opened for user root by <*>,20
+8b428b11,pam_unix(sudo:session): session closed for user root,20
+9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,7
+3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,10
+b72edb09,group added to /etc/group: <*> GID=<*>,5
+7b1cd48d,group added to /etc/gshadow: <*>,5
+c1056d3a,change user <*> password,3
+82466679,changed password expiry for <*>,4
+5bd4dea5,changed user <*> information,3
+f7e3b1ce,user pulse added by root to group audio,1
+c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),8
+6e704123,pam_unix(cron:session): session closed for user root,8
+e7dadfb8,pam_unix(xrdp-sesman:session): session opened for user jdoe by (uid=<*>),3
+0a7846c3,Connection <*> by <*> port <*> [preauth],9
+cf94a865,Did not receive identification string from <*> port <*>,4
+69b42e01,Invalid user pi from <*> port <*>,2
+0849a7d0,pam_unix(sshd:auth): check pass; user unknown,2
+e0a8b45a,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,2
+ffaa47c4,Failed password for invalid user pi from <*> port <*> ssh<*>,2
+e25b9b61,Connection closed by invalid user pi <*> port <*> [preauth],2
+d156dcec,Received disconnect from <*> port <*>:<*>: Bye Bye [preauth],1
+0054e5e2,Disconnected from <*> port <*> [preauth],1

@@ -1,0 +1,35 @@
+EventId,EventTemplate,Occurrences
+724c882e,new group: <*> GID=<*>,6
+74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>",5
+592235c8,add 'akep' to group <*>,11
+e2fa0972,add 'akep' to shadow group <*>,11
+f2bb95c7,New seat seat0.,7
+52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),7
+daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),14
+8938d159,Server listening on <*> port <*>.,16
+903531a0,Received signal <*>; terminating.,3
+71cda69f,Accepted password for akep from <*> port <*> ssh<*>,1
+60ad0b31,pam_unix(sshd:session): session opened for user akep by (uid=<*>),1
+631fd9af,New session <*> of user akep.,5
+a87bdc1a,pam_unix(systemd-user:session): session opened for user akep by (uid=<*>),4
+ec5e7244,akep : TTY=pts/<*> ; PWD=/home/akep ; USER=root ; <*> <*>,6
+d5216419,pam_unix(sudo:session): session opened for user root by <*>,23
+8b428b11,pam_unix(sudo:session): session closed for user root,23
+12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,15
+c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),8
+6e704123,pam_unix(cron:session): session closed for user root,8
+b72edb09,group added to /etc/group: <*> GID=<*>,5
+7b1cd48d,group added to /etc/gshadow: <*>,5
+c1056d3a,change user <*> password,3
+82466679,changed password expiry for <*>,4
+5bd4dea5,changed user <*> information,3
+f7e3b1ce,user pulse added by root to group audio,1
+87377c3d,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> install <*>,2
+f169d137,pam_unix(xrdp-sesman:session): session opened for user akep by (uid=<*>),4
+a2ab0439,pam_unix(sshd:session): session closed for user akep,1
+f0d2194d,pam_unix(xrdp-sesman:session): session closed for user akep,1
+b921190b,pam_unix(xrdp-sesman:auth): authentication failure; logname= uid=<*> euid=<*> tty=xrdp-sesman ruser= rhost= user=akep,1
+d156dcec,Received disconnect from <*> port <*>:<*>: Bye Bye [preauth],2
+0054e5e2,Disconnected from <*> port <*> [preauth],2
+0a7846c3,Connection <*> by <*> port <*> [preauth],8
+cf94a865,Did not receive identification string from <*> port <*>,3

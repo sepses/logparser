@@ -1,0 +1,6 @@
+EventId,EventTemplate,Occurrences
+494c8a7c,"CONNECT: Client ""::ffff:<*>""",89
+440f6509,"[<*>] <*> LOGIN: Client ""::ffff:<*>""",57
+026bba7c,"[<*>] OK <*> Client ""::ffff:<*>"", <*>",2
+32eb2840,"[<*>] FAIL DOWNLOAD: Client ""::ffff:<*>"", <*> <*>.00Kbyte/sec",19
+976e33c8,"[<*>] OK <*> Client ""::ffff:<*>"", <*> <*> bytes, <*>",23

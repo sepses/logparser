@@ -1,0 +1,25 @@
+Scenario Setup
+
+Users:
+- Johne Doe (jdoe)
+-- Client1 (Ubuntu)
+-- ftp_jdoe (FTP account)
+-- ftp_admin (FTP account)
+
+- Jane Halley (jhalley) 
+-- Client2 (Ubuntu)
+-- ftp_jhalley (FTP account)
+
+- Anna Kep (akep) 
+-- Client 3 (Ubuntu)
+-- ftp_akep (FTP account)
+
+- sepses (Server admin)
+
+Server (10.0.0.7)
+- UbuntuApp
+-- Wordpress (internal example.com) (mysql)
+-- FTP server (files folder)
+-- ftp_admin (FTP account)
+
+

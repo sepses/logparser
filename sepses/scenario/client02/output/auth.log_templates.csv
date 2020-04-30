@@ -1,0 +1,44 @@
+EventId,EventTemplate,Occurrences
+724c882e,new group: <*> GID=<*>,6
+74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>",5
+19ef34c1,add 'jhalley' to group <*>,11
+cbc0acc2,add 'jhalley' to shadow group <*>,11
+f2bb95c7,New seat seat0.,5
+52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),5
+daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),10
+8938d159,Server listening on <*> port <*>.,12
+903531a0,Received signal <*>; terminating.,2
+8dd84e7d,Accepted password for jhalley from <*> port <*> ssh<*>,1
+4b118d69,pam_unix(sshd:session): session opened for user jhalley by (uid=<*>),1
+5666de89,New session <*> of user jhalley.,4
+c5e859f3,pam_unix(systemd-user:session): session opened for user jhalley by (uid=<*>),3
+cf94a865,Did not receive identification string from <*> port <*>,5
+5badbdb1,jhalley : TTY=pts/<*> ; PWD=/home/jhalley ; USER=root ; <*> <*>,9
+d5216419,pam_unix(sudo:session): session opened for user root by <*>,22
+8b428b11,pam_unix(sudo:session): session closed for user root,22
+1895aaaa,jhalley : TTY=pts/<*> ; PWD=/home/jhalley ; USER=root ; <*> <*> <*>,12
+c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),7
+6e704123,pam_unix(cron:session): session closed for user root,7
+b72edb09,group added to /etc/group: <*> GID=<*>,5
+7b1cd48d,group added to /etc/gshadow: <*>,5
+c1056d3a,change user <*> password,3
+82466679,changed password expiry for <*>,4
+5bd4dea5,changed user <*> information,3
+f7e3b1ce,user pulse added by root to group audio,1
+4aa97bca,jhalley : TTY=pts/<*> ; PWD=/home/jhalley ; USER=root ; COMMAND=/usr/bin/apt-get -y install xrdp,1
+d1d84c7e,pam_unix(xrdp-sesman:session): session opened for user jhalley by (uid=<*>),3
+38dda80a,Invalid user <*> from <*> port <*>,11
+0849a7d0,pam_unix(sshd:auth): check pass; user unknown,11
+e0a8b45a,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,11
+f0ba90fe,Failed password for invalid user <*> from <*> port <*> ssh<*>,11
+f000e4fa,Connection closed by <*> user <*> <*> port <*> [preauth],5
+422afdc1,Connection closed by <*> port <*> [preauth],1
+6d07b045,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=root,26
+335e5c25,Failed password for root from <*> port <*> ssh<*>,26
+ed46489a,Received disconnect from <*> port <*>:<*>: [preauth],23
+2552eb03,Disconnected from <*> user <*> <*> port <*> [preauth],33
+7aad7007,"Received disconnect from <*> port <*>:<*>: Normal Shutdown, Thank you for playing [preauth]",11
+b542638e,message repeated <*> times: [ Failed password for root from <*> port <*> ssh2],19
+cbf938f4,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=root,19
+d156dcec,Received disconnect from <*> port <*>:<*>: Bye Bye [preauth],15
+0054e5e2,Disconnected from <*> port <*> [preauth],16

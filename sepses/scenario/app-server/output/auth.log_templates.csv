@@ -1,0 +1,81 @@
+EventId,EventTemplate,Occurrences
+1880755a,pam_unix(sudo:auth): authentication failure; logname= uid=<*> euid=<*> tty=/dev/pts/<*> ruser=sepses rhost= user=sepses,5
+8df2590b,pam_unix(sudo:auth): conversation failed,1
+919ea90f,pam_unix(sudo:auth): auth could not identify password for [sepses],1
+c4b0a00c,sepses : <*> incorrect password attempt ; TTY=pts/<*> ; PWD=/home/sepses ; USER=root ; COMMAND=/usr/bin/apt-get install auditd -z,1
+02617354,sepses : TTY=pts/<*> ; PWD=/home/sepses ; USER=root ; <*> <*> <*> <*>,8
+7dc3fc60,pam_unix(sudo:session): session opened for user root by (uid=<*>),81
+8b428b11,pam_unix(sudo:session): session closed for user root,80
+a94a4636,sepses : TTY=pts/<*> ; <*> ; USER=root ; <*> <*>,27
+0be69c2a,sepses : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,40
+acee3bab,sepses : TTY=pts/<*> ; PWD=/home/sepses ; USER=root ; <*>,2
+356e0489,root : TTY=pts/<*> ; PWD=/etc/audit ; USER=root ; COMMAND=/bin/nano audit.conf,1
+cf94a865,Did not receive identification string from <*> port <*>,37
+ed46489a,Received disconnect from <*> port <*>:<*>: [preauth],7
+0054e5e2,Disconnected from <*> port <*> [preauth],20
+54ff4343,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> <*>,58
+ada372e1,Failed password for <*> from <*> port <*> ssh<*>,61
+b542638e,message repeated <*> times: [ Failed password for root from <*> port <*> ssh2],7
+cc5fc443,error: maximum authentication attempts exceeded for root from <*> port <*> ssh2 [preauth],7
+d6afbad1,Disconnecting authenticating user root <*> port <*>: Too many authentication failures [preauth],7
+cbf938f4,PAM <*> more authentication failures; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*> user=root,7
+2f2318e5,PAM service(sshd) ignoring max retries; <*> > <*>,7
+b72edb09,group added to /etc/group: <*> GID=<*>,6
+7b1cd48d,group added to /etc/gshadow: <*>,6
+724c882e,new group: <*> GID=<*>,6
+74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>",6
+5756e6e5,change user 'ntp' password,1
+1f629c10,changed password expiry for ntp,1
+c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),35
+6e704123,pam_unix(cron:session): session closed for user root,35
+2552eb03,Disconnected from <*> user <*> <*> port <*> [preauth],280
+0a7846c3,Connection <*> by <*> port <*> [preauth],6
+f2bb95c7,New seat seat0.,5
+52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),5
+daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),10
+8938d159,Server listening on <*> port <*>.,10
+18483e95,pam_unix(gdm-launch-environment:session): session opened for user gdm by (uid=<*>),15
+7823d519,pam_unix(systemd-user:session): session opened for user <*> by (uid=<*>),18
+4e6a7bf7,New session <*> of user <*>,19
+693d30d4,pam_unix(gdm-launch-environment:session): session closed for user gdm,10
+c9cfd6b2,Removed session <*>,11
+0b85b03d,"Registered Authentication Agent for <*> (system bus name :<*>.<*> [/usr/bin/gnome-shell], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale C.UTF-<*>)",8
+57a5778d,[system] Failed to activate service 'org.bluez': timed out (service_start_timeout=25000ms),5
+903531a0,Received signal <*>; terminating.,2
+f229f451,pam_unix(xrdp-sesman:session): session opened for user sepses by (uid=<*>),3
+1081281b,couldn't access control socket: /run/user/<*>/keyring/control: No such file or directory,8
+a4187754,Operator of unix-session:c4 FAILED to authenticate to gain authorization for action org.freedesktop.color-manager.create-device for system-bus-name::<*>.<*> [/usr/lib/gnome-settings-daemon/gsd-color] (owned by unix-user:sepses),3
+640dd3b4,uid <*> is trying to obtain org.freedesktop.packagekit.package-install auth (only_trusted:<*>),2
+5fe3efa3,Operator of unix-session:c4 FAILED to authenticate to gain authorization for action org.freedesktop.packagekit.package-install for system-bus-name::<*>.<*> [/usr/bin/gnome-software --gapplication-service] (owned by unix-user:sepses),1
+16530b4e,uid <*> failed to obtain auth,1
+28203180,pam_unix(polkit-<*>:auth): authentication failure; logname= uid=<*> euid=<*> tty= ruser=sepses rhost= user=sepses,1
+b7225e82,Operator of unix-session:c4 successfully authenticated as unix-user:sepses to gain ONE-SHOT authorization for action org.freedesktop.packagekit.package-install for system-bus-name::<*>.<*> [/usr/bin/gnome-software --gapplication-service] (owned by unix-user:sepses),1
+d8086e80,uid <*> obtained auth for org.freedesktop.packagekit.package-install,1
+a6e4f3b4,pam_unix(passwd:chauthtok): password changed for <*>,6
+8d5f78a4,gkr-pam: couldn't update the login keyring password: no old password was entered,6
+5bd4dea5,changed user <*> information,5
+38dda80a,Invalid user <*> from <*> port <*>,230
+0849a7d0,pam_unix(sshd:auth): check pass; user unknown,230
+e0a8b45a,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,230
+f0ba90fe,Failed password for invalid user <*> from <*> port <*> ssh<*>,229
+7aad7007,"Received disconnect from <*> port <*>:<*>: Normal Shutdown, Thank you for playing [preauth]",261
+93092c57,"Unable to negotiate with <*> port <*>: no matching key exchange method found. Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1 [preauth]",1
+9ea6c59a,error: Received disconnect from <*> port <*>:<*>: com.jcraft.jsch.JSchException: Auth fail [preauth],16
+5f9e018a,pam_unix(xrdp-sesman:session): session closed for user sepses,1
+c55c2dc6,pam_unix(xrdp-sesman:auth): check pass; user unknown,1
+a403f221,pam_unix(xrdp-sesman:auth): authentication failure; logname= uid=<*> euid=<*> tty=xrdp-sesman ruser= rhost=,1
+f50bf40b,sepses: Error executing command as another user: Not authorized [USER=root] [TTY=unknown] [CWD=/home/sepses] [COMMAND=/usr/lib/update-notifier/package-system-locked],1
+a0cbcb1b,pam_unix(gdm-password:auth): authentication failure; logname= uid=<*> euid=<*> tty=/dev/tty1 ruser= rhost= user=sepses,12
+15f8b9f5,pam_unix(vsftpd:auth): check pass; user unknown,2
+5ede50d5,pam_unix(vsftpd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ftp ruser=ftp_admin rhost=::ffff:<*>,2
+f000e4fa,Connection closed by <*> user <*> <*> port <*> [preauth],3
+ec56c479,pam_unix(vsftpd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ftp <*> rhost=::ffff:<*> <*>,3
+26f7c396,message repeated <*> times: [ <*> authentication failure; logname= uid=<*> euid=<*> <*> <*> <*> <*>,2
+6dc12bc6,sepses : TTY=pts/<*> ; PWD=/home/sepses ; USER=root ; COMMAND=/usr/sbin/usermod -d /ftp/files -m <*>,3
+e4af50a5,change user 'ftp_jdoe' home from '/home/ftp_jdoe' to '/ftp/files',1
+c0a756ec,Received disconnect from <*> port <*>:<*>: <*> <*> <*>,17
+82f74d2d,pam_unix(xrdp-sesman:auth): authentication failure; logname= uid=<*> euid=<*> tty=xrdp-sesman ruser= rhost= user=sepses,3
+05f5a6ae,Accepted password for sepses from <*> port <*> ssh<*>,1
+d8968145,pam_unix(sshd:session): session opened for user sepses by (uid=<*>),1
+3a6d94bc,Disconnected from user sepses <*> port <*>,1
+430f7463,pam_unix(sshd:session): session closed for user sepses,1

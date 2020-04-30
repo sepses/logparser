@@ -1,0 +1,82 @@
+EventId,EventTemplate,Occurrences
+e2797d68,op=start ver=<*>.<*>.<*> format=raw kernel=<*>.<*>.<*>-<*>-azure auid=<*> pid=<*> uid=<*> ses=<*> subj=unconfined res=success,6
+943a7bd2,audit_backlog_limit=<*> old=<*> auid=<*> ses=<*> <*>,11
+4f0a1bc9,audit_failure=<*> old=<*> auid=<*> ses=<*> <*>,11
+ff4db8d1,audit_backlog_wait_time=<*> old=<*> auid=<*> ses=<*> <*>,11
+b324f02a,pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> hostname=? addr=? <*> <*>,932
+7ca59cdf,pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> terminal=pts/<*> <*>,31
+f73a699e,op=terminate auid=<*> pid=<*> <*> <*>,10
+a656e353,auid=<*> ses=<*> <*> <*> list=<*> <*>,22
+b4cc6266,arch=c000003e syscall=<*> <*> exit=<*> <*> <*> <*> <*> items=<*> ppid=<*> pid=<*> auid=<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*> <*> ses=<*> <*> <*> <*>,85
+979c0e27,"cwd=""/home/sepses/Documents""",1
+73d5134d,item=<*> <*> inode=<*> dev=<*>:<*> mode=<*> ouid=<*> ogid=<*> rdev=<*>:<*> <*> cap_fp=<*> cap_fi=<*> cap_fe=<*> cap_fver=<*>,41
+e558b054,"proctitle=""bash""",3
+5cd0f409,"pid=<*> uid=<*> auid=<*> ses=<*> <*> acct=""root"" exe=""/usr/sbin/sshd"" <*> addr=<*> <*> res=failed'",81
+c7e7a52f,"pid=<*> uid=<*> auid=<*> ses=<*> msg='op=adding group to <*> id=<*> exe=""/usr/sbin/groupadd"" hostname=UbuntuApp addr=? terminal=pts/<*> res=success'",2
+04e1992d,pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> hostname=UbuntuApp addr=? <*> res=success',33
+3f4e0c4a,pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> <*> <*> addr=? <*> res=success',5
+c42dcef4,"pid=<*> uid=<*> auid=<*> ses=<*> msg='op=change max age id=<*> exe=""/usr/bin/chage"" hostname=UbuntuApp addr=? terminal=pts/<*> res=success'",1
+77b98999,"apparmor=""STATUS"" operation=""profile_load"" profile=""unconfined"" <*> pid=<*> comm=""apparmor_parser""",201
+8bddb807,proctitle=61707061726D6F725F706172736572002D72002D54002D57002F6574632F61707061726D6F722E642F7573722E7362696E2E6E<*>,1
+36637c21,"apparmor=""DENIED"" operation=""open"" profile=""/usr/sbin/ntpd"" name=""/snap/bin/"" pid=<*> comm=""ntpd"" requested_mask=""r"" denied_mask=""r"" fsuid=<*> ouid=<*>",1
+8e1e0274,"cwd=""/""",34
+3a1bab67,proctitle=2F7573722F7362696E2F6E747064002D70002F7661722F72756E2F6E7470642E706964002D67002D75003132393A<*>,1
+10851a30,table=security family=<*> entries=<*>,41
+84c4ac86,proctitle=69707461626C6573002D77002D74007365637572697479002D4C004F5554505554002D2D7A65726F004F5554505554002D6E<*>,26
+5690cd83,pid=<*> uid=<*> old-auid=<*> auid=<*> tty=(none) old-ses=<*> ses=<*> res=<*>,16
+a3d2bae4,"auid=<*> uid=<*> gid=<*> ses=<*> pid=<*> comm=""NetworkWatcherA"" exe=""/var/lib/waagent/Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-<*>/NetworkWatcherAgent/NetworkWatcherAgent"" sig=<*> res=<*>",1
+26042467,proctitle=2F7362696E2F61707061726D6F725F706172736572002D2D77726974652D6361636865002D2D7265706C616365002D2D63616368652D6C6F633D2F6574632F61707061726D6F722E642F6361636865002D2D002F6574632F61707061726D6F722E642F6C78632D636F6E7461696E657273002F6574632F61707061726D6F722E,72
+6d9017d0,proctitle=2F7362696E2F61707061726D6F725F706172736572002D2D77726974652D6361636865002D2D7265706C616365002D2D63616368652D6C6F633D2F7661722F63616368652F61707061726D6F72002D4F006E6F2D657870722D73696D706C696679002D2D002F7661722F6C69622F736E6170642F61707061726D6F722F70726F,35
+6cfd83c2,"name=""iptable_security""",5
+eeb56e84,proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D0069707461626C655F<*>,5
+d46a2bc1,proctitle=69707461626C6573002D77002D74007365637572697479002D41004F5554505554002D64003136382E36332E3132392E3136002D7000746370002D6D006F776E6572002D2D7569642D6F776E65720030002D6A<*>,5
+c55634be,proctitle=69707461626C6573002D77002D74007365637572697479002D41004F5554505554002D64003136382E36332E3132392E3136002D7000746370002D6D00636F6E6E747261636B002D2D6374737461746500494E56414C49442C4E4557002D6A0044524F<*>,5
+21e15ecb,table=filter family=<*> entries=<*>,10
+e4a6a9dd,"name=""iptable_filter""",5
+1dd2dc1b,proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D0069707461626C655F66696C<*>,5
+fd3767e5,"name=""ip6table_filter""",5
+ed8847de,proctitle=2F7362696E2F6D6F6470726F6265002D71002D2D006970367461626C655F66696C<*>,5
+bf55a36d,proctitle=6E616E6F007661722F7777772F6578616D706C652E636F6D2F77702D636F6E74656E742F7468656D65732F7477656E74797477656E74792F666F6F7465722E<*>,6
+049e98e4,proctitle=6E616E6F007661722F7777772F6578616D706C652E636F6D2F77702D636F6E74656E742F7468656D65732F7477656E74797477656E74792F696E6465782E<*>,6
+2e86292b,audit_pid=<*> old=<*> auid=<*> ses=<*> res=<*>,1
+d1dca6f9,"cwd=""/home/sepses""",264
+8d7ba978,proctitle=2F7573722F62696E2F6E617574696C7573002D2D676170706C69636174696F6E2D<*>,8
+a3042561,"proctitle=""filezilla""",6
+b6999989,"pid=<*> uid=<*> auid=<*> ses=<*> <*> acct=""sepses"" exe=""/usr/sbin/vsftpd"" hostname=::ffff:<*> addr=::ffff:<*> terminal=ftp res=success'",6
+55f18245,proctitle=2F7573722F7362696E2F767366747064002F6574632F7673667470642E636F6E<*>,69
+943f8d77,"cwd=""/files""",43
+3727c993,"cwd=""/files/again""",3
+648e6cc4,"cwd=""/files/testfolder""",2
+5604576d,"op=start ver=<*>.<*>.<*> format=enriched kernel=<*>.<*>.<*>-<*>-azure auid=<*> pid=<*> uid=<*> ses=<*> subj=unconfined res=successAUID=""unset"" UID=""root""",5
+aea20b48,"pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> <*> addr=? <*> res=success'UID=""root"" <*>",1168
+2114d90e,arch=c000003e syscall=<*> success=yes exit=<*> <*> <*> <*> <*> items=<*> ppid=<*> pid=<*> auid=<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*> tty=(none) ses=<*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*> <*>,60
+30e661ce,item=<*> <*> inode=<*> dev=<*>:<*> mode=<*> ouid=<*> ogid=<*> rdev=<*>:<*> <*> cap_fp=<*> cap_fi=<*> cap_fe=<*> <*> <*>,337
+531818f0,"pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> terminal=pts/<*> <*> AUID=""sepses""",50
+8f45cbf9,"pid=<*> uid=<*> old-auid=<*> auid=<*> tty=(none) old-ses=<*> ses=<*> res=<*>UID=""root"" OLD-AUID=""unset"" <*>",38
+62ca2556,"pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> <*> addr=? <*> <*> AUID=""sepses""",41
+72bef4b2,"pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> exe=""/usr/sbin/vsftpd"" hostname=::ffff:<*> addr=::ffff:<*> terminal=ftp <*> AUID=""unset""",124
+c459ac95,"pid=<*> uid=<*> auid=<*> ses=<*> msg='op=adding group to <*> id=<*> exe=""/usr/sbin/groupadd"" hostname=UbuntuApp addr=? terminal=pts/<*> res=success'UID=""root"" AUID=""sepses"" <*>",10
+b1fa5d5e,"pid=<*> uid=<*> auid=<*> ses=<*> <*> id=<*> <*> <*> <*> <*> res=success'UID=""root"" AUID=""sepses"" <*>",6
+9ad0c0cd,"pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> <*> <*> addr=? <*> res=success'UID=""root"" AUID=""sepses"" <*>",10
+6b556aa9,"arch=c000003e syscall=<*> <*> exit=<*> <*> <*> a2=<*> <*> items=<*> ppid=<*> pid=<*> auid=<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*> tty=(none) ses=<*> <*> <*> <*> <*> AUID=""unset"" <*> <*> <*> <*> <*> <*> <*> <*>",71
+6d43a4de,"pid=<*> uid=<*> auid=<*> ses=<*> <*> <*> <*> <*> <*> <*> res=failed'UID=""root"" AUID=""unset""",1048
+e0182a1c,"auid=<*> uid=<*> gid=<*> ses=<*> pid=<*> comm=""NetworkWatcherA"" exe=""/var/lib/waagent/Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-<*>/NetworkWatcherAgent/NetworkWatcherAgent"" sig=<*> res=<*>AUID=""unset"" UID=""root"" GID=""root""",3
+50550122,"pid=<*> uid=<*> auid=<*> ses=<*> msg='old-level=N new-level=<*> comm=""systemd-update-utmp"" exe=""/lib/systemd/systemd-update-utmp"" hostname=? addr=? terminal=? res=success'UID=""root"" AUID=""unset""",3
+5402c45b,"cwd=""/ftp""",2
+047100d3,"proctitle=""/usr/bin/updatedb.mlocate""",5
+ce6b3a34,"cwd=""/ftp/files""",2
+f5116577,"cwd=""/ftp/files/again""",1
+40f4a69d,"pid=<*> uid=<*> auid=<*> ses=<*> msg='uid=<*> exe=""/usr/lib/gdm3/gdm-session-worker"" hostname=? addr=? terminal=? res=failed'UID=""root"" AUID=""unset"" UID=""sepses""",15
+c9585b2f,"arch=c000003e syscall=<*> <*> exit=<*> a0=ffffff9c <*> a2=<*> <*> items=<*> ppid=<*> pid=<*> auid=<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*> <*> ses=<*> <*> <*> key=""ftp""ARCH=x86_<*> SYSCALL=openat <*> <*> <*> <*> <*> <*> <*> <*> <*>",43
+cfefd63a,"pid=<*> uid=<*> auid=<*> ses=<*> msg='op=changing home directory id=<*> exe=""/usr/sbin/usermod"" hostname=UbuntuApp addr=? terminal=pts/<*> res=success'UID=""root"" AUID=""sepses"" ID=""ftp_jdoe""",1
+328b30b4,"pid=<*> uid=<*> auid=<*> ses=<*> msg='op=modifying account acct=""ftp_jdoe"" exe=""/usr/sbin/usermod"" hostname=UbuntuApp addr=? terminal=pts/<*> res=failed'UID=""root"" AUID=""sepses""",1
+05312c64,"arch=c000003e syscall=<*> <*> exit=<*> <*> <*> <*> <*> items=<*> ppid=<*> pid=<*> auid=<*> uid=<*> gid=<*> euid=<*> suid=<*> fsuid=<*> egid=<*> sgid=<*> fsgid=<*> <*> ses=<*> <*> <*> <*> <*> <*> UID=""root"" GID=""root"" EUID=""root"" SUID=""root"" FSUID=""root"" EGID=""root"" SGID=""root"" FSGID=""root""",252
+743634c7,proctitle=6C73002D6C61002F6674702F66696C<*>,184
+b6a55542,proctitle=63686F776E006674705F6A68616C6C6579002F6674702F66696C65732F002D<*>,3
+05247e79,proctitle=63686F776E006674705F6A646F65002F6674702F66696C65732F002D<*>,3
+602d5207,proctitle=63686F776E006674705F616B6570002F6674702F66696C65732F002D<*>,3
+1ff351f4,proctitle=63686F776E00373737002F6674702F66696C65732F002D<*>,3
+8dc10577,proctitle=6C73002D6C61002F6674702F66696C6573002D<*>,40
+5180c8b4,proctitle=63686D6F6400373737002F6674702F66696C6573002D<*>,6
+0bb838a4,"proctitle=""/usr/lib/firefox/firefox""",6
+28a91eba,"pid=<*> uid=<*> auid=<*> ses=<*> <*> acct=""sepses"" exe=""/usr/sbin/sshd"" hostname=<*> addr=<*> terminal=ssh res=success'UID=""root"" <*>",7

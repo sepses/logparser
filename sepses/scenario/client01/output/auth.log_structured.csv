@@ -1,0 +1,191 @@
+LineId,Month,Date,Time,Type,Component,Content,EventId,EventTemplate,ParameterList
+1,Mar,9,10:40:57,Client01,useradd[1136],"new group: name=jdoe, GID=1000",724c882e,new group: <*> GID=<*>,"['name=jdoe,', '1000']"
+2,Mar,9,10:40:57,Client01,useradd[1136],"new user: name=jdoe, UID=1000, GID=1000, home=/home/jdoe, shell=/bin/bash",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=jdoe,', '1000', '1000', 'home=/home/jdoe, shell=/bin/bash']"
+3,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'adm',d6a93616,add 'jdoe' to group <*>,"[""'adm'""]"
+4,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'dialout',d6a93616,add 'jdoe' to group <*>,"[""'dialout'""]"
+5,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'cdrom',d6a93616,add 'jdoe' to group <*>,"[""'cdrom'""]"
+6,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'floppy',d6a93616,add 'jdoe' to group <*>,"[""'floppy'""]"
+7,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'sudo',d6a93616,add 'jdoe' to group <*>,"[""'sudo'""]"
+8,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'audio',d6a93616,add 'jdoe' to group <*>,"[""'audio'""]"
+9,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'dip',d6a93616,add 'jdoe' to group <*>,"[""'dip'""]"
+10,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'video',d6a93616,add 'jdoe' to group <*>,"[""'video'""]"
+11,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'plugdev',d6a93616,add 'jdoe' to group <*>,"[""'plugdev'""]"
+12,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'lxd',d6a93616,add 'jdoe' to group <*>,"[""'lxd'""]"
+13,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to group 'netdev',d6a93616,add 'jdoe' to group <*>,"[""'netdev'""]"
+14,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'adm',11b5f432,add 'jdoe' to shadow group <*>,"[""'adm'""]"
+15,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'dialout',11b5f432,add 'jdoe' to shadow group <*>,"[""'dialout'""]"
+16,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'cdrom',11b5f432,add 'jdoe' to shadow group <*>,"[""'cdrom'""]"
+17,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'floppy',11b5f432,add 'jdoe' to shadow group <*>,"[""'floppy'""]"
+18,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'sudo',11b5f432,add 'jdoe' to shadow group <*>,"[""'sudo'""]"
+19,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'audio',11b5f432,add 'jdoe' to shadow group <*>,"[""'audio'""]"
+20,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'dip',11b5f432,add 'jdoe' to shadow group <*>,"[""'dip'""]"
+21,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'video',11b5f432,add 'jdoe' to shadow group <*>,"[""'video'""]"
+22,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'plugdev',11b5f432,add 'jdoe' to shadow group <*>,"[""'plugdev'""]"
+23,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'lxd',11b5f432,add 'jdoe' to shadow group <*>,"[""'lxd'""]"
+24,Mar,9,10:40:57,Client01,useradd[1136],add 'jdoe' to shadow group 'netdev',11b5f432,add 'jdoe' to shadow group <*>,"[""'netdev'""]"
+25,Mar,9,10:40:57,Client01,systemd-logind[1214],New seat seat0.,f2bb95c7,New seat seat0.,[]
+26,Mar,9,10:40:57,Client01,systemd-logind[1214],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+27,Mar,9,10:40:57,Client01,systemd-logind[1214],Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event2', '2']"
+28,Mar,9,10:40:57,Client01,systemd-logind[1214],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+29,Mar,9,10:40:58,Client01,sshd[1441],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+30,Mar,9,10:40:58,Client01,sshd[1441],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+31,Mar,9,10:41:01,Client01,sshd[1441],Received signal 15; terminating.,903531a0,Received signal <*>; terminating.,['15']
+32,Mar,9,10:41:01,Client01,sshd[1730],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+33,Mar,9,10:41:01,Client01,sshd[1730],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+34,Mar,9,10:51:37,Client01,sshd[2415],Accepted password for jdoe from 185.81.215.145 port 51031 ssh2,aec89abf,Accepted password for jdoe from <*> port <*> ssh<*>,"['185.81.215.145', '51031', '2']"
+35,Mar,9,10:51:37,Client01,sshd[2415],pam_unix(sshd:session): session opened for user jdoe by (uid=0),3bc15242,pam_unix(sshd:session): session opened for user jdoe by (uid=<*>),['0']
+36,Mar,9,10:51:37,Client01,systemd,pam_unix(systemd-user:session): session opened for user jdoe by (uid=0),308f3c02,pam_unix(systemd-user:session): session opened for user jdoe by (uid=<*>),['0']
+37,Mar,9,10:51:37,Client01,systemd-logind[1214],New session 1 of user jdoe.,2c0fcf3b,New session <*> of user jdoe.,['1']
+38,Mar,9,10:55:58,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get -y install xrdp,f0f78560,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get <*> <*> <*>,"['0', '-y', 'install xrdp']"
+39,Mar,9,10:55:58,Client01,sudo,pam_unix(sudo:session): session opened for user root by jdoe(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['jdoe(uid=0)']
+40,Mar,9,10:55:58,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+41,Mar,9,10:56:26,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt update,9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,"['0', 'COMMAND=/usr/bin/apt update']"
+42,Mar,9,10:56:26,Client01,sudo,pam_unix(sudo:session): session opened for user root by jdoe(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['jdoe(uid=0)']
+43,Mar,9,10:56:35,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+44,Mar,9,10:56:51,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get install xfce4,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/usr/bin/apt-get', 'install xfce4']"
+45,Mar,9,10:56:51,Client01,sudo,pam_unix(sudo:session): session opened for user root by jdoe(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['jdoe(uid=0)']
+46,Mar,9,10:59:18,Client01,groupadd[7271],"group added to /etc/group: name=rtkit, GID=115",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=rtkit,', '115']"
+47,Mar,9,10:59:18,Client01,groupadd[7271],group added to /etc/gshadow: name=rtkit,7b1cd48d,group added to /etc/gshadow: <*>,['name=rtkit']
+48,Mar,9,10:59:18,Client01,groupadd[7271],"new group: name=rtkit, GID=115",724c882e,new group: <*> GID=<*>,"['name=rtkit,', '115']"
+49,Mar,9,10:59:18,Client01,useradd[7275],"new user: name=rtkit, UID=111, GID=115, home=/proc, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=rtkit,', '111', '115', 'home=/proc, shell=/usr/sbin/nologin']"
+50,Mar,9,10:59:18,Client01,usermod[7281],change user 'rtkit' password,c1056d3a,change user <*> password,"[""'rtkit'""]"
+51,Mar,9,10:59:18,Client01,chage[7286],changed password expiry for rtkit,82466679,changed password expiry for <*>,['rtkit']
+52,Mar,9,10:59:18,Client01,chfn[7289],changed user 'rtkit' information,5bd4dea5,changed user <*> information,"[""'rtkit'""]"
+53,Mar,9,10:59:23,Client01,useradd[7465],"new user: name=usbmux, UID=112, GID=46, home=/var/lib/usbmux, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=usbmux,', '112', '46', 'home=/var/lib/usbmux, shell=/usr/sbin/nologin']"
+54,Mar,9,10:59:23,Client01,usermod[7471],change user 'usbmux' password,c1056d3a,change user <*> password,"[""'usbmux'""]"
+55,Mar,9,10:59:23,Client01,chage[7476],changed password expiry for usbmux,82466679,changed password expiry for <*>,['usbmux']
+56,Mar,9,10:59:23,Client01,chfn[7479],changed user 'usbmux' information,5bd4dea5,changed user <*> information,"[""'usbmux'""]"
+57,Mar,9,10:59:37,Client01,groupadd[7824],"group added to /etc/group: name=pulse, GID=116",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=pulse,', '116']"
+58,Mar,9,10:59:37,Client01,groupadd[7824],group added to /etc/gshadow: name=pulse,7b1cd48d,group added to /etc/gshadow: <*>,['name=pulse']
+59,Mar,9,10:59:37,Client01,groupadd[7824],"new group: name=pulse, GID=116",724c882e,new group: <*> GID=<*>,"['name=pulse,', '116']"
+60,Mar,9,10:59:37,Client01,useradd[7828],"new user: name=pulse, UID=113, GID=116, home=/var/run/pulse, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=pulse,', '113', '116', 'home=/var/run/pulse, shell=/usr/sbin/nologin']"
+61,Mar,9,10:59:38,Client01,usermod[7834],change user 'pulse' password,c1056d3a,change user <*> password,"[""'pulse'""]"
+62,Mar,9,10:59:38,Client01,chage[7839],changed password expiry for pulse,82466679,changed password expiry for <*>,['pulse']
+63,Mar,9,10:59:38,Client01,chfn[7842],changed user 'pulse' information,5bd4dea5,changed user <*> information,"[""'pulse'""]"
+64,Mar,9,10:59:38,Client01,gpasswd[7847],user pulse added by root to group audio,f7e3b1ce,user pulse added by root to group audio,[]
+65,Mar,9,10:59:38,Client01,groupadd[7853],"group added to /etc/group: name=pulse-access, GID=117",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=pulse-access,', '117']"
+66,Mar,9,10:59:38,Client01,groupadd[7853],group added to /etc/gshadow: name=pulse-access,7b1cd48d,group added to /etc/gshadow: <*>,['name=pulse-access']
+67,Mar,9,10:59:38,Client01,groupadd[7853],"new group: name=pulse-access, GID=117",724c882e,new group: <*> GID=<*>,"['name=pulse-access,', '117']"
+68,Mar,9,11:00:47,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+69,Mar,9,11:17:01,Client01,CRON[26953],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+70,Mar,9,11:17:01,Client01,CRON[26953],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+71,Mar,9,11:40:15,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get -y install xrdp,f0f78560,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get <*> <*> <*>,"['0', '-y', 'install xrdp']"
+72,Mar,9,11:40:15,Client01,sudo,pam_unix(sudo:session): session opened for user root by jdoe(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['jdoe(uid=0)']
+73,Mar,9,11:40:17,Client01,groupadd[28359],"group added to /etc/group: name=ssl-cert, GID=118",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=ssl-cert,', '118']"
+74,Mar,9,11:40:17,Client01,groupadd[28359],group added to /etc/gshadow: name=ssl-cert,7b1cd48d,group added to /etc/gshadow: <*>,['name=ssl-cert']
+75,Mar,9,11:40:17,Client01,groupadd[28359],"new group: name=ssl-cert, GID=118",724c882e,new group: <*> GID=<*>,"['name=ssl-cert,', '118']"
+76,Mar,9,11:40:18,Client01,groupadd[28383],"group added to /etc/group: name=xrdp, GID=119",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=xrdp,', '119']"
+77,Mar,9,11:40:18,Client01,groupadd[28383],group added to /etc/gshadow: name=xrdp,7b1cd48d,group added to /etc/gshadow: <*>,['name=xrdp']
+78,Mar,9,11:40:18,Client01,groupadd[28383],"new group: name=xrdp, GID=119",724c882e,new group: <*> GID=<*>,"['name=xrdp,', '119']"
+79,Mar,9,11:40:18,Client01,useradd[28387],"new user: name=xrdp, UID=114, GID=119, home=/var/run/xrdp, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=xrdp,', '114', '119', 'home=/var/run/xrdp, shell=/usr/sbin/nologin']"
+80,Mar,9,11:40:18,Client01,chage[28393],changed password expiry for xrdp,82466679,changed password expiry for <*>,['xrdp']
+81,Mar,9,11:40:23,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+82,Mar,9,11:42:22,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/systemctl enable xrdp,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/bin/systemctl', 'enable xrdp']"
+83,Mar,9,11:42:22,Client01,sudo,pam_unix(sudo:session): session opened for user root by jdoe(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['jdoe(uid=0)']
+84,Mar,9,11:42:22,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+85,Mar,9,11:42:37,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/sbin/service xrdp restart,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/usr/sbin/service', 'xrdp restart']"
+86,Mar,9,11:42:37,Client01,sudo,pam_unix(sudo:session): session opened for user root by jdoe(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['jdoe(uid=0)']
+87,Mar,9,11:42:38,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+88,Mar,9,11:49:06,Client01,xrdp-sesman[29496],pam_unix(xrdp-sesman:session): session opened for user jdoe by (uid=0),e7dadfb8,pam_unix(xrdp-sesman:session): session opened for user jdoe by (uid=<*>),['0']
+89,Mar,9,11:49:07,Client01,systemd-logind[1214],New session c1 of user jdoe.,2c0fcf3b,New session <*> of user jdoe.,['c1']
+90,Mar,9,11:50:48,Client01,sudo,jdoe : TTY=pts/1 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt install firefox,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['1', 'COMMAND=/usr/bin/apt', 'install firefox']"
+91,Mar,9,11:50:48,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+92,Mar,9,11:51:19,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+93,Mar,9,11:55:20,Client01,sudo,jdoe : TTY=pts/1 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/nano /etc/hosts,9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,"['1', 'COMMAND=/bin/nano /etc/hosts']"
+94,Mar,9,11:55:20,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+95,Mar,9,11:55:49,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+96,Mar,9,12:17:01,Client01,CRON[31884],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+97,Mar,9,12:17:01,Client01,CRON[31884],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+98,Mar,9,12:47:37,Client01,sudo,jdoe : TTY=pts/2 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt install auditd,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['2', 'COMMAND=/usr/bin/apt', 'install auditd']"
+99,Mar,9,12:47:37,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+100,Mar,9,12:47:45,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+101,Mar,9,12:50:02,Client01,sshd[34065],Connection closed by 170.80.224.60 port 35539 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '170.80.224.60', '35539']"
+102,Mar,9,12:51:50,Client01,sshd[1730],Received signal 15; terminating.,903531a0,Received signal <*>; terminating.,['15']
+103,Mar,9,20:19:06,Client01,systemd-logind[1260],New seat seat0.,f2bb95c7,New seat seat0.,[]
+104,Mar,9,20:19:06,Client01,systemd-logind[1260],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+105,Mar,9,20:19:06,Client01,systemd-logind[1260],Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event2', '2']"
+106,Mar,9,20:19:06,Client01,systemd-logind[1260],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+107,Mar,9,20:19:08,Client01,sshd[1443],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+108,Mar,9,20:19:08,Client01,sshd[1443],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+109,Mar,9,20:20:27,Client01,xrdp-sesman[1870],pam_unix(xrdp-sesman:session): session opened for user jdoe by (uid=0),e7dadfb8,pam_unix(xrdp-sesman:session): session opened for user jdoe by (uid=<*>),['0']
+110,Mar,9,20:20:27,Client01,systemd-logind[1260],New session c1 of user jdoe.,2c0fcf3b,New session <*> of user jdoe.,['c1']
+111,Mar,9,20:20:27,Client01,systemd,pam_unix(systemd-user:session): session opened for user jdoe by (uid=0),308f3c02,pam_unix(systemd-user:session): session opened for user jdoe by (uid=<*>),['0']
+112,Mar,9,20:25:40,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get install auditd -y,f0f78560,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt-get <*> <*> <*>,"['0', 'install', 'auditd -y']"
+113,Mar,9,20:25:40,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+114,Mar,9,20:25:42,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+115,Mar,9,20:25:59,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/systemctl start auditd,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/bin/systemctl', 'start auditd']"
+116,Mar,9,20:25:59,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+117,Mar,9,20:25:59,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+118,Mar,9,20:26:20,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/systemctl enable auditd,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/bin/systemctl', 'enable auditd']"
+119,Mar,9,20:26:20,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+120,Mar,9,20:26:21,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+121,Mar,9,20:27:10,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/sbin/auditctl -l,9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,"['0', 'COMMAND=/sbin/auditctl -l']"
+122,Mar,9,20:27:10,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+123,Mar,9,20:27:10,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+124,Mar,9,20:27:42,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/nano /etc/audit/rules.d/audit.rules,9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,"['0', 'COMMAND=/bin/nano /etc/audit/rules.d/audit.rules']"
+125,Mar,9,20:27:42,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+126,Mar,9,20:36:40,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+127,Mar,9,20:37:03,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/systemctl restart aduitd,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/bin/systemctl', 'restart aduitd']"
+128,Mar,9,20:37:03,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+129,Mar,9,20:37:03,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+130,Mar,9,20:37:46,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/sbin/auditctl -l,9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,"['0', 'COMMAND=/sbin/auditctl -l']"
+131,Mar,9,20:37:46,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+132,Mar,9,20:37:46,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+133,Mar,9,20:38:36,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/bin/systemctl restart auditd,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/bin/systemctl', 'restart auditd']"
+134,Mar,9,20:38:36,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+135,Mar,9,20:38:36,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+136,Mar,9,20:38:46,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/sbin/auditctl -l,9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,"['0', 'COMMAND=/sbin/auditctl -l']"
+137,Mar,9,20:38:46,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+138,Mar,9,20:38:46,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+139,Mar,9,21:06:06,Client01,sshd[5144],Did not receive identification string from 103.232.207.15 port 46286,cf94a865,Did not receive identification string from <*> port <*>,"['103.232.207.15', '46286']"
+140,Mar,9,21:06:33,Client01,sshd[1443],Received signal 15; terminating.,903531a0,Received signal <*>; terminating.,['15']
+141,Mar,14,10:37:35,Client01,systemd-logind[1206],New seat seat0.,f2bb95c7,New seat seat0.,[]
+142,Mar,14,10:37:35,Client01,systemd-logind[1206],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+143,Mar,14,10:37:35,Client01,systemd-logind[1206],Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event3', '2']"
+144,Mar,14,10:37:35,Client01,systemd-logind[1206],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+145,Mar,14,10:37:36,Client01,sshd[1423],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+146,Mar,14,10:37:36,Client01,sshd[1423],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+147,Mar,14,10:42:59,Client01,xrdp-sesman[3406],pam_unix(xrdp-sesman:session): session opened for user jdoe by (uid=0),e7dadfb8,pam_unix(xrdp-sesman:session): session opened for user jdoe by (uid=<*>),['0']
+148,Mar,14,10:42:59,Client01,systemd-logind[1206],New session c1 of user jdoe.,2c0fcf3b,New session <*> of user jdoe.,['c1']
+149,Mar,14,10:42:59,Client01,systemd,pam_unix(systemd-user:session): session opened for user jdoe by (uid=0),308f3c02,pam_unix(systemd-user:session): session opened for user jdoe by (uid=<*>),['0']
+150,Mar,14,10:47:07,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/sbin/auditctl -l,9cfba4f1,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*>,"['0', 'COMMAND=/sbin/auditctl -l']"
+151,Mar,14,10:47:07,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+152,Mar,14,10:47:07,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+153,Mar,14,11:00:22,Client01,sudo,jdoe : TTY=pts/0 ; PWD=/home/jdoe ; USER=root ; COMMAND=/usr/bin/apt install filezilla,3fabd3d6,jdoe : TTY=pts/<*> ; PWD=/home/jdoe ; USER=root ; <*> <*> <*>,"['0', 'COMMAND=/usr/bin/apt', 'install filezilla']"
+154,Mar,14,11:00:22,Client01,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+155,Mar,14,11:00:53,Client01,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+156,Mar,14,11:17:01,Client01,CRON[6529],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+157,Mar,14,11:17:01,Client01,CRON[6529],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+158,Mar,14,11:42:40,Client01,sshd[8080],Invalid user pi from 113.190.216.72 port 38310,69b42e01,Invalid user pi from <*> port <*>,"['113.190.216.72', '38310']"
+159,Mar,14,11:42:40,Client01,sshd[8073],Invalid user pi from 113.190.216.72 port 38306,69b42e01,Invalid user pi from <*> port <*>,"['113.190.216.72', '38306']"
+160,Mar,14,11:42:41,Client01,sshd[8080],pam_unix(sshd:auth): check pass; user unknown,0849a7d0,pam_unix(sshd:auth): check pass; user unknown,[]
+161,Mar,14,11:42:41,Client01,sshd[8080],pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.190.216.72,e0a8b45a,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,"['0', '0', '113.190.216.72']"
+162,Mar,14,11:42:41,Client01,sshd[8073],pam_unix(sshd:auth): check pass; user unknown,0849a7d0,pam_unix(sshd:auth): check pass; user unknown,[]
+163,Mar,14,11:42:41,Client01,sshd[8073],pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=113.190.216.72,e0a8b45a,pam_unix(sshd:auth): authentication failure; logname= uid=<*> euid=<*> tty=ssh ruser= rhost=<*>,"['0', '0', '113.190.216.72']"
+164,Mar,14,11:42:43,Client01,sshd[8080],Failed password for invalid user pi from 113.190.216.72 port 38310 ssh2,ffaa47c4,Failed password for invalid user pi from <*> port <*> ssh<*>,"['113.190.216.72', '38310', '2']"
+165,Mar,14,11:42:43,Client01,sshd[8073],Failed password for invalid user pi from 113.190.216.72 port 38306 ssh2,ffaa47c4,Failed password for invalid user pi from <*> port <*> ssh<*>,"['113.190.216.72', '38306', '2']"
+166,Mar,14,11:42:43,Client01,sshd[8080],Connection closed by invalid user pi 113.190.216.72 port 38310 [preauth],e25b9b61,Connection closed by invalid user pi <*> port <*> [preauth],"['113.190.216.72', '38310']"
+167,Mar,14,11:42:43,Client01,sshd[8073],Connection closed by invalid user pi 113.190.216.72 port 38306 [preauth],e25b9b61,Connection closed by invalid user pi <*> port <*> [preauth],"['113.190.216.72', '38306']"
+168,Mar,14,12:07:46,Client01,sshd[9497],Connection reset by 196.52.43.52 port 36051 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['reset', '196.52.43.52', '36051']"
+169,Mar,14,12:17:01,Client01,CRON[10026],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+170,Mar,14,12:17:01,Client01,CRON[10026],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+171,Mar,14,13:17:01,Client01,CRON[13377],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+172,Mar,14,13:17:01,Client01,CRON[13377],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+173,Mar,14,13:45:42,Client01,sshd[14965],Did not receive identification string from 162.243.133.44 port 42892,cf94a865,Did not receive identification string from <*> port <*>,"['162.243.133.44', '42892']"
+174,Mar,14,13:59:59,Client01,sshd[15779],Did not receive identification string from 24.100.79.217 port 57874,cf94a865,Did not receive identification string from <*> port <*>,"['24.100.79.217', '57874']"
+175,Mar,14,14:08:02,Client01,sshd[16228],Connection closed by 24.100.79.217 port 58739 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '24.100.79.217', '58739']"
+176,Mar,14,14:10:10,Client01,sshd[16350],Did not receive identification string from 34.87.136.134 port 40104,cf94a865,Did not receive identification string from <*> port <*>,"['34.87.136.134', '40104']"
+177,Mar,14,14:17:01,Client01,CRON[16730],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+178,Mar,14,14:17:01,Client01,CRON[16730],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+179,Mar,14,14:18:24,Client01,sshd[16802],Connection closed by 24.100.79.217 port 59717 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '24.100.79.217', '59717']"
+180,Mar,14,14:23:01,Client01,sshd[17063],Connection closed by 24.100.79.217 port 60312 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '24.100.79.217', '60312']"
+181,Mar,14,14:27:53,Client01,sshd[17333],Connection closed by 24.100.79.217 port 60931 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '24.100.79.217', '60931']"
+182,Mar,14,14:32:30,Client01,sshd[17596],Connection closed by 24.100.79.217 port 33299 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '24.100.79.217', '33299']"
+183,Mar,14,14:37:06,Client01,sshd[17854],Connection closed by 24.100.79.217 port 33907 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '24.100.79.217', '33907']"
+184,Mar,14,14:41:57,Client01,sshd[18133],Connection closed by 24.100.79.217 port 34508 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '24.100.79.217', '34508']"
+185,Mar,14,14:58:41,Client01,sshd[19085],Received disconnect from 188.138.121.60 port 57371:11: Bye Bye [preauth],d156dcec,Received disconnect from <*> port <*>:<*>: Bye Bye [preauth],"['188.138.121.60', '57371:11']"
+186,Mar,14,14:58:41,Client01,sshd[19085],Disconnected from 188.138.121.60 port 57371 [preauth],0054e5e2,Disconnected from <*> port <*> [preauth],"['188.138.121.60', '57371']"
+187,Mar,14,15:17:01,Client01,CRON[20124],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+188,Mar,14,15:17:01,Client01,CRON[20124],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+189,Mar,14,16:17:01,Client01,CRON[23582],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+190,Mar,14,16:17:01,Client01,CRON[23582],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]

@@ -1,0 +1,220 @@
+LineId,Month,Date,Time,Type,Component,Content,EventId,EventTemplate,ParameterList
+1,Mar,9,10:43:14,Client03,useradd[1220],"new group: name=akep, GID=1000",724c882e,new group: <*> GID=<*>,"['name=akep,', '1000']"
+2,Mar,9,10:43:14,Client03,useradd[1220],"new user: name=akep, UID=1000, GID=1000, home=/home/akep, shell=/bin/bash",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=akep,', '1000', '1000', 'home=/home/akep, shell=/bin/bash']"
+3,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'adm',592235c8,add 'akep' to group <*>,"[""'adm'""]"
+4,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'dialout',592235c8,add 'akep' to group <*>,"[""'dialout'""]"
+5,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'cdrom',592235c8,add 'akep' to group <*>,"[""'cdrom'""]"
+6,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'floppy',592235c8,add 'akep' to group <*>,"[""'floppy'""]"
+7,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'sudo',592235c8,add 'akep' to group <*>,"[""'sudo'""]"
+8,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'audio',592235c8,add 'akep' to group <*>,"[""'audio'""]"
+9,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'dip',592235c8,add 'akep' to group <*>,"[""'dip'""]"
+10,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'video',592235c8,add 'akep' to group <*>,"[""'video'""]"
+11,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'plugdev',592235c8,add 'akep' to group <*>,"[""'plugdev'""]"
+12,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'lxd',592235c8,add 'akep' to group <*>,"[""'lxd'""]"
+13,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to group 'netdev',592235c8,add 'akep' to group <*>,"[""'netdev'""]"
+14,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'adm',e2fa0972,add 'akep' to shadow group <*>,"[""'adm'""]"
+15,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'dialout',e2fa0972,add 'akep' to shadow group <*>,"[""'dialout'""]"
+16,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'cdrom',e2fa0972,add 'akep' to shadow group <*>,"[""'cdrom'""]"
+17,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'floppy',e2fa0972,add 'akep' to shadow group <*>,"[""'floppy'""]"
+18,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'sudo',e2fa0972,add 'akep' to shadow group <*>,"[""'sudo'""]"
+19,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'audio',e2fa0972,add 'akep' to shadow group <*>,"[""'audio'""]"
+20,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'dip',e2fa0972,add 'akep' to shadow group <*>,"[""'dip'""]"
+21,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'video',e2fa0972,add 'akep' to shadow group <*>,"[""'video'""]"
+22,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'plugdev',e2fa0972,add 'akep' to shadow group <*>,"[""'plugdev'""]"
+23,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'lxd',e2fa0972,add 'akep' to shadow group <*>,"[""'lxd'""]"
+24,Mar,9,10:43:14,Client03,useradd[1220],add 'akep' to shadow group 'netdev',e2fa0972,add 'akep' to shadow group <*>,"[""'netdev'""]"
+25,Mar,9,10:43:14,Client03,systemd-logind[1266],New seat seat0.,f2bb95c7,New seat seat0.,[]
+26,Mar,9,10:43:14,Client03,systemd-logind[1266],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+27,Mar,9,10:43:14,Client03,systemd-logind[1266],Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event2', '2']"
+28,Mar,9,10:43:14,Client03,systemd-logind[1266],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+29,Mar,9,10:43:17,Client03,sshd[1628],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+30,Mar,9,10:43:17,Client03,sshd[1628],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+31,Mar,9,10:43:20,Client03,sshd[1628],Received signal 15; terminating.,903531a0,Received signal <*>; terminating.,['15']
+32,Mar,9,10:43:20,Client03,sshd[1848],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+33,Mar,9,10:43:20,Client03,sshd[1848],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+34,Mar,9,10:57:24,Client03,sshd[1848],Received signal 15; terminating.,903531a0,Received signal <*>; terminating.,['15']
+35,Mar,9,12:12:47,Client03,systemd-logind[1289],New seat seat0.,f2bb95c7,New seat seat0.,[]
+36,Mar,9,12:12:47,Client03,systemd-logind[1289],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+37,Mar,9,12:12:47,Client03,systemd-logind[1289],Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event2', '2']"
+38,Mar,9,12:12:47,Client03,systemd-logind[1289],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+39,Mar,9,12:12:47,Client03,sshd[1395],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+40,Mar,9,12:12:47,Client03,sshd[1395],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+41,Mar,9,12:15:37,Client03,sshd[1867],Accepted password for akep from 185.81.215.145 port 62609 ssh2,71cda69f,Accepted password for akep from <*> port <*> ssh<*>,"['185.81.215.145', '62609', '2']"
+42,Mar,9,12:15:37,Client03,sshd[1867],pam_unix(sshd:session): session opened for user akep by (uid=0),60ad0b31,pam_unix(sshd:session): session opened for user akep by (uid=<*>),['0']
+43,Mar,9,12:15:37,Client03,systemd-logind[1289],New session 1 of user akep.,631fd9af,New session <*> of user akep.,['1']
+44,Mar,9,12:15:37,Client03,systemd,pam_unix(systemd-user:session): session opened for user akep by (uid=0),a87bdc1a,pam_unix(systemd-user:session): session opened for user akep by (uid=<*>),['0']
+45,Mar,9,12:15:50,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt-get update,ec5e7244,akep : TTY=pts/<*> ; PWD=/home/akep ; USER=root ; <*> <*>,"['0', 'COMMAND=/usr/bin/apt-get update']"
+46,Mar,9,12:15:50,Client03,sudo,pam_unix(sudo:session): session opened for user root by akep(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['akep(uid=0)']
+47,Mar,9,12:15:59,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+48,Mar,9,12:16:02,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt-get install xfce4,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt-get', 'install xfce4']"
+49,Mar,9,12:16:02,Client03,sudo,pam_unix(sudo:session): session opened for user root by akep(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['akep(uid=0)']
+50,Mar,9,12:17:01,Client03,CRON[3520],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+51,Mar,9,12:17:01,Client03,CRON[3520],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+52,Mar,9,12:18:44,Client03,groupadd[6444],"group added to /etc/group: name=rtkit, GID=115",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=rtkit,', '115']"
+53,Mar,9,12:18:44,Client03,groupadd[6444],group added to /etc/gshadow: name=rtkit,7b1cd48d,group added to /etc/gshadow: <*>,['name=rtkit']
+54,Mar,9,12:18:44,Client03,groupadd[6444],"new group: name=rtkit, GID=115",724c882e,new group: <*> GID=<*>,"['name=rtkit,', '115']"
+55,Mar,9,12:18:44,Client03,useradd[6448],"new user: name=rtkit, UID=111, GID=115, home=/proc, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=rtkit,', '111', '115', 'home=/proc, shell=/usr/sbin/nologin']"
+56,Mar,9,12:18:44,Client03,usermod[6454],change user 'rtkit' password,c1056d3a,change user <*> password,"[""'rtkit'""]"
+57,Mar,9,12:18:44,Client03,chage[6459],changed password expiry for rtkit,82466679,changed password expiry for <*>,['rtkit']
+58,Mar,9,12:18:44,Client03,chfn[6462],changed user 'rtkit' information,5bd4dea5,changed user <*> information,"[""'rtkit'""]"
+59,Mar,9,12:18:52,Client03,useradd[6650],"new user: name=usbmux, UID=112, GID=46, home=/var/lib/usbmux, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=usbmux,', '112', '46', 'home=/var/lib/usbmux, shell=/usr/sbin/nologin']"
+60,Mar,9,12:18:52,Client03,usermod[6656],change user 'usbmux' password,c1056d3a,change user <*> password,"[""'usbmux'""]"
+61,Mar,9,12:18:52,Client03,chage[6661],changed password expiry for usbmux,82466679,changed password expiry for <*>,['usbmux']
+62,Mar,9,12:18:52,Client03,chfn[6664],changed user 'usbmux' information,5bd4dea5,changed user <*> information,"[""'usbmux'""]"
+63,Mar,9,12:19:10,Client03,groupadd[7008],"group added to /etc/group: name=pulse, GID=116",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=pulse,', '116']"
+64,Mar,9,12:19:10,Client03,groupadd[7008],group added to /etc/gshadow: name=pulse,7b1cd48d,group added to /etc/gshadow: <*>,['name=pulse']
+65,Mar,9,12:19:10,Client03,groupadd[7008],"new group: name=pulse, GID=116",724c882e,new group: <*> GID=<*>,"['name=pulse,', '116']"
+66,Mar,9,12:19:10,Client03,useradd[7012],"new user: name=pulse, UID=113, GID=116, home=/var/run/pulse, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=pulse,', '113', '116', 'home=/var/run/pulse, shell=/usr/sbin/nologin']"
+67,Mar,9,12:19:10,Client03,usermod[7018],change user 'pulse' password,c1056d3a,change user <*> password,"[""'pulse'""]"
+68,Mar,9,12:19:10,Client03,chage[7023],changed password expiry for pulse,82466679,changed password expiry for <*>,['pulse']
+69,Mar,9,12:19:10,Client03,chfn[7026],changed user 'pulse' information,5bd4dea5,changed user <*> information,"[""'pulse'""]"
+70,Mar,9,12:19:10,Client03,gpasswd[7031],user pulse added by root to group audio,f7e3b1ce,user pulse added by root to group audio,[]
+71,Mar,9,12:19:10,Client03,groupadd[7041],"group added to /etc/group: name=pulse-access, GID=117",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=pulse-access,', '117']"
+72,Mar,9,12:19:10,Client03,groupadd[7041],group added to /etc/gshadow: name=pulse-access,7b1cd48d,group added to /etc/gshadow: <*>,['name=pulse-access']
+73,Mar,9,12:19:10,Client03,groupadd[7041],"new group: name=pulse-access, GID=117",724c882e,new group: <*> GID=<*>,"['name=pulse-access,', '117']"
+74,Mar,9,12:20:36,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+75,Mar,9,12:25:35,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt-get install xfce4,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt-get', 'install xfce4']"
+76,Mar,9,12:25:35,Client03,sudo,pam_unix(sudo:session): session opened for user root by akep(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['akep(uid=0)']
+77,Mar,9,12:25:36,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+78,Mar,9,12:25:49,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt-get -y install xrdp,87377c3d,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> install <*>,"['0', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt-get -y', 'xrdp']"
+79,Mar,9,12:25:49,Client03,sudo,pam_unix(sudo:session): session opened for user root by akep(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['akep(uid=0)']
+80,Mar,9,12:25:52,Client03,groupadd[25714],"group added to /etc/group: name=ssl-cert, GID=118",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=ssl-cert,', '118']"
+81,Mar,9,12:25:52,Client03,groupadd[25714],group added to /etc/gshadow: name=ssl-cert,7b1cd48d,group added to /etc/gshadow: <*>,['name=ssl-cert']
+82,Mar,9,12:25:52,Client03,groupadd[25714],"new group: name=ssl-cert, GID=118",724c882e,new group: <*> GID=<*>,"['name=ssl-cert,', '118']"
+83,Mar,9,12:25:53,Client03,groupadd[25738],"group added to /etc/group: name=xrdp, GID=119",b72edb09,group added to /etc/group: <*> GID=<*>,"['name=xrdp,', '119']"
+84,Mar,9,12:25:53,Client03,groupadd[25738],group added to /etc/gshadow: name=xrdp,7b1cd48d,group added to /etc/gshadow: <*>,['name=xrdp']
+85,Mar,9,12:25:53,Client03,groupadd[25738],"new group: name=xrdp, GID=119",724c882e,new group: <*> GID=<*>,"['name=xrdp,', '119']"
+86,Mar,9,12:25:53,Client03,useradd[25742],"new user: name=xrdp, UID=114, GID=119, home=/var/run/xrdp, shell=/usr/sbin/nologin",74f6c0c1,"new user: <*> UID=<*>, GID=<*>, <*> <*>","['name=xrdp,', '114', '119', 'home=/var/run/xrdp, shell=/usr/sbin/nologin']"
+87,Mar,9,12:25:54,Client03,chage[25748],changed password expiry for xrdp,82466679,changed password expiry for <*>,['xrdp']
+88,Mar,9,12:25:59,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+89,Mar,9,12:26:12,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/bin/systemctl enable xrdp,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/bin/systemctl', 'enable xrdp']"
+90,Mar,9,12:26:12,Client03,sudo,pam_unix(sudo:session): session opened for user root by akep(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['akep(uid=0)']
+91,Mar,9,12:26:13,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+92,Mar,9,12:26:28,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/sbin/service xrdp restart,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/usr/sbin/service', 'xrdp restart']"
+93,Mar,9,12:26:28,Client03,sudo,pam_unix(sudo:session): session opened for user root by akep(uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['akep(uid=0)']
+94,Mar,9,12:26:29,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+95,Mar,9,12:27:42,Client03,xrdp-sesman[26556],pam_unix(xrdp-sesman:session): session opened for user akep by (uid=0),f169d137,pam_unix(xrdp-sesman:session): session opened for user akep by (uid=<*>),['0']
+96,Mar,9,12:27:42,Client03,systemd-logind[1289],New session c1 of user akep.,631fd9af,New session <*> of user akep.,['c1']
+97,Mar,9,12:28:31,Client03,sudo,akep : TTY=pts/1 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt-get update,ec5e7244,akep : TTY=pts/<*> ; PWD=/home/akep ; USER=root ; <*> <*>,"['1', 'COMMAND=/usr/bin/apt-get update']"
+98,Mar,9,12:28:31,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+99,Mar,9,12:28:33,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+100,Mar,9,12:28:54,Client03,sudo,akep : TTY=pts/1 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt install firefox,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['1', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt', 'install firefox']"
+101,Mar,9,12:28:54,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+102,Mar,9,12:29:23,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+103,Mar,9,12:29:40,Client03,sudo,akep : TTY=pts/1 ; PWD=/home/akep ; USER=root ; COMMAND=/bin/nano /etc/hosts,ec5e7244,akep : TTY=pts/<*> ; PWD=/home/akep ; USER=root ; <*> <*>,"['1', 'COMMAND=/bin/nano /etc/hosts']"
+104,Mar,9,12:29:40,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+105,Mar,9,12:30:05,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+106,Mar,9,12:33:54,Client03,sudo,akep : TTY=pts/2 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt install systemtap-sdt-dev,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['2', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt', 'install systemtap-sdt-dev']"
+107,Mar,9,12:33:54,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+108,Mar,9,12:33:58,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+109,Mar,9,12:47:03,Client03,sudo,akep : TTY=pts/2 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt install auditd,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['2', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt', 'install auditd']"
+110,Mar,9,12:47:03,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+111,Mar,9,12:50:13,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+112,Mar,9,12:50:15,Client03,sudo,akep : TTY=pts/2 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt install auditd,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['2', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt', 'install auditd']"
+113,Mar,9,12:50:15,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+114,Mar,9,12:50:21,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+115,Mar,9,12:51:57,Client03,sshd[1867],pam_unix(sshd:session): session closed for user akep,a2ab0439,pam_unix(sshd:session): session closed for user akep,[]
+116,Mar,9,12:51:57,Client03,xrdp-sesman[26556],pam_unix(xrdp-sesman:session): session closed for user akep,f0d2194d,pam_unix(xrdp-sesman:session): session closed for user akep,[]
+117,Mar,9,20:19:20,Client03,systemd-logind[1420],New seat seat0.,f2bb95c7,New seat seat0.,[]
+118,Mar,9,20:19:20,Client03,systemd-logind[1420],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+119,Mar,9,20:19:20,Client03,systemd-logind[1420],Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event2', '2']"
+120,Mar,9,20:19:20,Client03,systemd-logind[1420],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+121,Mar,9,20:19:21,Client03,sshd[1612],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+122,Mar,9,20:19:21,Client03,sshd[1612],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+123,Mar,9,20:21:25,Client03,xrdp-sesman[2086],pam_unix(xrdp-sesman:session): session opened for user akep by (uid=0),f169d137,pam_unix(xrdp-sesman:session): session opened for user akep by (uid=<*>),['0']
+124,Mar,9,20:21:25,Client03,systemd-logind[1420],New session c1 of user akep.,631fd9af,New session <*> of user akep.,['c1']
+125,Mar,9,20:21:25,Client03,systemd,pam_unix(systemd-user:session): session opened for user akep by (uid=0),a87bdc1a,pam_unix(systemd-user:session): session opened for user akep by (uid=<*>),['0']
+126,Mar,9,20:26:15,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/bin/systemctl start auditd,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/bin/systemctl', 'start auditd']"
+127,Mar,9,20:26:15,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+128,Mar,9,20:26:15,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+129,Mar,9,20:26:34,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/bin/systemctl enable auditd,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/bin/systemctl', 'enable auditd']"
+130,Mar,9,20:26:35,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+131,Mar,9,20:26:35,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+132,Mar,9,20:27:27,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/sbin/auditctl -l,ec5e7244,akep : TTY=pts/<*> ; PWD=/home/akep ; USER=root ; <*> <*>,"['0', 'COMMAND=/sbin/auditctl -l']"
+133,Mar,9,20:27:27,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+134,Mar,9,20:27:27,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+135,Mar,9,20:28:04,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/bin/nano /etc/audit/rules.d/audit.rules,ec5e7244,akep : TTY=pts/<*> ; PWD=/home/akep ; USER=root ; <*> <*>,"['0', 'COMMAND=/bin/nano /etc/audit/rules.d/audit.rules']"
+136,Mar,9,20:28:04,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+137,Mar,9,20:36:26,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+138,Mar,9,20:37:10,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/bin/systemctl restart auditd,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/bin/systemctl', 'restart auditd']"
+139,Mar,9,20:37:10,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+140,Mar,9,20:37:10,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+141,Mar,9,20:39:04,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/sbin/auditctl -l,ec5e7244,akep : TTY=pts/<*> ; PWD=/home/akep ; USER=root ; <*> <*>,"['0', 'COMMAND=/sbin/auditctl -l']"
+142,Mar,9,20:39:04,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+143,Mar,9,20:39:04,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+144,Mar,9,21:33:19,Client03,systemd-logind[1286],New seat seat0.,f2bb95c7,New seat seat0.,[]
+145,Mar,9,21:33:19,Client03,systemd-logind[1286],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+146,Mar,9,21:33:19,Client03,systemd-logind[1286],Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event3', '2']"
+147,Mar,9,21:33:19,Client03,systemd-logind[1286],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+148,Mar,9,21:33:19,Client03,sshd[1401],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+149,Mar,9,21:33:19,Client03,sshd[1401],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+150,Mar,9,21:54:18,Client03,xrdp-sesman[3005],pam_unix(xrdp-sesman:session): session opened for user akep by (uid=0),f169d137,pam_unix(xrdp-sesman:session): session opened for user akep by (uid=<*>),['0']
+151,Mar,9,21:54:18,Client03,systemd-logind[1286],New session c1 of user akep.,631fd9af,New session <*> of user akep.,['c1']
+152,Mar,9,21:54:18,Client03,systemd,pam_unix(systemd-user:session): session opened for user akep by (uid=0),a87bdc1a,pam_unix(systemd-user:session): session opened for user akep by (uid=<*>),['0']
+153,Mar,9,21:56:33,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt install filezilla,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt', 'install filezilla']"
+154,Mar,9,21:56:33,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+155,Mar,9,21:57:09,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+156,Mar,9,22:17:01,Client03,CRON[5200],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+157,Mar,9,22:17:01,Client03,CRON[5200],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+158,Mar,11,08:35:07,Client03,systemd-logind[1319],New seat seat0.,f2bb95c7,New seat seat0.,[]
+159,Mar,11,08:35:07,Client03,systemd-logind[1319],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+160,Mar,11,08:35:07,Client03,systemd-logind[1319],Watching system buttons on /dev/input/event3 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event3', '2']"
+161,Mar,11,08:35:07,Client03,systemd-logind[1319],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+162,Mar,11,08:35:09,Client03,sshd[1543],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+163,Mar,11,08:35:09,Client03,sshd[1543],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+164,Mar,11,08:39:08,Client03,sshd[1543],Received signal 15; terminating.,903531a0,Received signal <*>; terminating.,['15']
+165,Mar,14,10:38:14,Client03,systemd-logind[1315],New seat seat0.,f2bb95c7,New seat seat0.,[]
+166,Mar,14,10:38:14,Client03,systemd-logind[1315],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+167,Mar,14,10:38:14,Client03,systemd-logind[1315],Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event2', '2']"
+168,Mar,14,10:38:14,Client03,systemd-logind[1315],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+169,Mar,14,10:38:15,Client03,sshd[1472],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+170,Mar,14,10:38:15,Client03,sshd[1472],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+171,Mar,14,10:44:26,Client03,systemd-logind[1193],New seat seat0.,f2bb95c7,New seat seat0.,[]
+172,Mar,14,10:44:26,Client03,systemd-logind[1193],Watching system buttons on /dev/input/event0 (Power Button),52d4ae92,Watching system buttons on /dev/input/event0 (Power Button),[]
+173,Mar,14,10:44:26,Client03,systemd-logind[1193],Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event2', '2']"
+174,Mar,14,10:44:26,Client03,systemd-logind[1193],Watching system buttons on /dev/input/event1 (AT Translated Set 2 keyboard),daa8ad92,Watching system buttons on <*> (AT Translated Set <*> keyboard),"['/dev/input/event1', '2']"
+175,Mar,14,10:44:26,Client03,sshd[1220],Server listening on 0.0.0.0 port 22.,8938d159,Server listening on <*> port <*>.,"['0.0.0.0', '22']"
+176,Mar,14,10:44:26,Client03,sshd[1220],Server listening on :: port 22.,8938d159,Server listening on <*> port <*>.,"['::', '22']"
+177,Mar,14,10:45:19,Client03,xrdp-sesman[1218],pam_unix(xrdp-sesman:auth): authentication failure; logname= uid=0 euid=0 tty=xrdp-sesman ruser= rhost=  user=akep,b921190b,pam_unix(xrdp-sesman:auth): authentication failure; logname= uid=<*> euid=<*> tty=xrdp-sesman ruser= rhost= user=akep,"['0', '0']"
+178,Mar,14,10:45:31,Client03,xrdp-sesman[1830],pam_unix(xrdp-sesman:session): session opened for user akep by (uid=0),f169d137,pam_unix(xrdp-sesman:session): session opened for user akep by (uid=<*>),['0']
+179,Mar,14,10:45:31,Client03,systemd-logind[1193],New session c1 of user akep.,631fd9af,New session <*> of user akep.,['c1']
+180,Mar,14,10:45:31,Client03,systemd,pam_unix(systemd-user:session): session opened for user akep by (uid=0),a87bdc1a,pam_unix(systemd-user:session): session opened for user akep by (uid=<*>),['0']
+181,Mar,14,10:47:22,Client03,sshd[2181],Received disconnect from 58.210.180.180 port 53625:11: Bye Bye [preauth],d156dcec,Received disconnect from <*> port <*>:<*>: Bye Bye [preauth],"['58.210.180.180', '53625:11']"
+182,Mar,14,10:47:22,Client03,sshd[2181],Disconnected from 58.210.180.180 port 53625 [preauth],0054e5e2,Disconnected from <*> port <*> [preauth],"['58.210.180.180', '53625']"
+183,Mar,14,10:51:33,Client03,sudo,akep : TTY=pts/0 ; PWD=/home/akep ; USER=root ; COMMAND=/bin/systemctl status auditd,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['0', 'PWD=/home/akep', 'COMMAND=/bin/systemctl', 'status auditd']"
+184,Mar,14,10:51:33,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+185,Mar,14,10:51:48,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+186,Mar,14,11:01:42,Client03,sudo,akep : TTY=pts/1 ; PWD=/home/akep ; USER=root ; COMMAND=/usr/bin/apt install filezilla,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['1', 'PWD=/home/akep', 'COMMAND=/usr/bin/apt', 'install filezilla']"
+187,Mar,14,11:01:42,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+188,Mar,14,11:01:43,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+189,Mar,14,11:17:01,Client03,CRON[4232],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+190,Mar,14,11:17:01,Client03,CRON[4232],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+191,Mar,14,12:08:27,Client03,sshd[7171],Connection reset by 196.52.43.52 port 47858 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['reset', '196.52.43.52', '47858']"
+192,Mar,14,12:17:01,Client03,CRON[7660],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+193,Mar,14,12:17:01,Client03,CRON[7660],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+194,Mar,14,13:17:01,Client03,CRON[11024],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+195,Mar,14,13:17:01,Client03,CRON[11024],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+196,Mar,14,13:45:27,Client03,sshd[12608],Did not receive identification string from 162.243.128.185 port 34218,cf94a865,Did not receive identification string from <*> port <*>,"['162.243.128.185', '34218']"
+197,Mar,14,14:17:01,Client03,CRON[14453],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+198,Mar,14,14:17:01,Client03,CRON[14453],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+199,Mar,14,14:47:26,Client03,sshd[16155],Received disconnect from 167.172.156.81 port 39242:11: Bye Bye [preauth],d156dcec,Received disconnect from <*> port <*>:<*>: Bye Bye [preauth],"['167.172.156.81', '39242:11']"
+200,Mar,14,14:47:26,Client03,sshd[16155],Disconnected from 167.172.156.81 port 39242 [preauth],0054e5e2,Disconnected from <*> port <*> [preauth],"['167.172.156.81', '39242']"
+201,Mar,14,15:17:01,Client03,CRON[17845],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+202,Mar,14,15:17:01,Client03,CRON[17845],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+203,Mar,14,15:33:28,Client03,sshd[18766],Did not receive identification string from 67.245.202.208 port 37772,cf94a865,Did not receive identification string from <*> port <*>,"['67.245.202.208', '37772']"
+204,Mar,14,15:35:59,Client03,sshd[18934],Connection closed by 67.245.202.208 port 38581 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '67.245.202.208', '38581']"
+205,Mar,14,15:50:29,Client03,sshd[19985],Connection closed by 67.245.202.208 port 39851 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '67.245.202.208', '39851']"
+206,Mar,14,15:51:29,Client03,sudo,akep : TTY=pts/3 ; PWD=/home/akep/Downloads ; USER=root ; COMMAND=/usr/bin/apt get install wget,87377c3d,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> install <*>,"['3', 'PWD=/home/akep/Downloads', 'COMMAND=/usr/bin/apt get', 'wget']"
+207,Mar,14,15:51:29,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+208,Mar,14,15:51:29,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+209,Mar,14,15:51:42,Client03,sudo,akep : TTY=pts/3 ; PWD=/home/akep/Downloads ; USER=root ; COMMAND=/usr/bin/apt install wget,12a86369,akep : TTY=pts/<*> ; <*> ; USER=root ; <*> <*> <*>,"['3', 'PWD=/home/akep/Downloads', 'COMMAND=/usr/bin/apt', 'install wget']"
+210,Mar,14,15:51:42,Client03,sudo,pam_unix(sudo:session): session opened for user root by (uid=0),d5216419,pam_unix(sudo:session): session opened for user root by <*>,['(uid=0)']
+211,Mar,14,15:51:43,Client03,sudo,pam_unix(sudo:session): session closed for user root,8b428b11,pam_unix(sudo:session): session closed for user root,[]
+212,Mar,14,15:55:53,Client03,sshd[20346],Connection closed by 67.245.202.208 port 40553 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '67.245.202.208', '40553']"
+213,Mar,14,16:01:08,Client03,sshd[20668],Connection closed by 67.245.202.208 port 41246 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '67.245.202.208', '41246']"
+214,Mar,14,16:06:30,Client03,sshd[20994],Connection closed by 67.245.202.208 port 41955 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '67.245.202.208', '41955']"
+215,Mar,14,16:11:53,Client03,sshd[21288],Connection closed by 67.245.202.208 port 42654 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '67.245.202.208', '42654']"
+216,Mar,14,16:12:56,Client03,sshd[21365],Did not receive identification string from 45.33.70.146 port 56352,cf94a865,Did not receive identification string from <*> port <*>,"['45.33.70.146', '56352']"
+217,Mar,14,16:17:01,Client03,CRON[21600],pam_unix(cron:session): session opened for user root by (uid=0),c257f384,pam_unix(cron:session): session opened for user root by (uid=<*>),['0']
+218,Mar,14,16:17:01,Client03,CRON[21600],pam_unix(cron:session): session closed for user root,6e704123,pam_unix(cron:session): session closed for user root,[]
+219,Mar,14,16:17:16,Client03,sshd[21607],Connection closed by 67.245.202.208 port 43352 [preauth],0a7846c3,Connection <*> by <*> port <*> [preauth],"['closed', '67.245.202.208', '43352']"
